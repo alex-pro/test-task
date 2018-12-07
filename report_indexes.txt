@@ -1,0 +1,11 @@
+appointments:
+  index on client_id
+  index on slot_id
+
+slot_variations:
+  index on slot_id
+  index on variation_id
+
+slots:
+  index on location_id
+  index on purchase_id
